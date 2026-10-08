@@ -36,6 +36,203 @@
       ],
       "ast": [
         "aggregate/ast/ac3a1650e33ab5bfeee2df32f511120a259d667f/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/ac3a1650e33ab5bfeee2df32f511120a259d667f.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "tinker",
+          "ecosystem": "PYPI",
+          "version": "0.32.0",
+          "githubOrg": "thinking-machines-lab",
+          "githubRepo": "tinker",
+          "githubUrl": "https://github.com/thinking-machines-lab/tinker",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "fastapi",
+          "ecosystem": "PYPI",
+          "version": "0.104.0",
+          "githubOrg": "fastapi",
+          "githubRepo": "fastapi",
+          "githubCommit": "38f191dcd30c7e7b7d422b4406f8eb8c6805b09d",
+          "githubTag": "0.104.0",
+          "githubUrl": "https://github.com/fastapi/fastapi",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "uvicorn",
+          "ecosystem": "PYPI",
+          "version": "0.24.0",
+          "githubOrg": "sponsors",
+          "githubRepo": "Kludex",
+          "githubUrl": "https://github.com/sponsors/Kludex",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pydantic",
+          "ecosystem": "PYPI",
+          "version": "2.0.0",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic",
+          "githubUrl": "https://github.com/pydantic/pydantic",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "requests",
+          "ecosystem": "PYPI",
+          "version": "2.31.0",
+          "githubOrg": "psf",
+          "githubRepo": "requests",
+          "githubCommit": "147c8511ddbfa5e8f71bbf5c18ede0c4ceb3bba4",
+          "githubTag": "v2.31.0",
+          "githubUrl": "https://github.com/psf/requests",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "aiohttp",
+          "ecosystem": "PYPI",
+          "version": "3.9.0",
+          "githubOrg": "aio-libs",
+          "githubRepo": "aiohttp",
+          "githubCommit": "45b2c2c5773f0ee0d35fce8ff5716c78e91d9135",
+          "githubTag": "v3.9.0",
+          "githubUrl": "https://github.com/aio-libs/aiohttp",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "wandb",
+          "ecosystem": "PYPI",
+          "version": "0.15.0",
+          "githubOrg": "wandb",
+          "githubRepo": "wandb",
+          "githubCommit": "c4726707ed83ebb270a2cf84c4fd17b8684ff699",
+          "githubTag": "v0.15.0",
+          "githubUrl": "https://github.com/wandb/wandb",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "python-dotenv",
+          "ecosystem": "PYPI",
+          "version": "1.0.0",
+          "githubOrg": "theskumar",
+          "githubRepo": "python-dotenv",
+          "githubCommit": "d0684d1c092fb6a9a208a09d43f02e4876ee8196",
+          "githubTag": "v1.0.0",
+          "githubUrl": "https://github.com/theskumar/python-dotenv",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "7.4.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "d9bf9dbec104af1e3a2c02b04f4e1d501d5d86a2",
+          "githubTag": "7.4.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-asyncio",
+          "ecosystem": "PYPI",
+          "version": "0.21.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-asyncio",
+          "githubCommit": "75dcceafcea94b8c286b8cba1b00ddec2593261f",
+          "githubTag": "v0.21.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest-asyncio",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "black",
+          "ecosystem": "PYPI",
+          "version": "23.0.0",
+          "githubOrg": "psf",
+          "githubRepo": "black",
+          "githubUrl": "https://github.com/psf/black",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "ruff",
+          "ecosystem": "PYPI",
+          "version": "0.1.0",
+          "githubOrg": "astral-sh",
+          "githubRepo": "ruff",
+          "githubCommit": "172ac2c9a27040e4a60726f82cabed6166af094a",
+          "githubTag": "v0.1.0",
+          "githubUrl": "https://github.com/astral-sh/ruff",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "mypy",
+          "ecosystem": "PYPI",
+          "version": "1.6.0",
+          "githubOrg": "python",
+          "githubRepo": "mypy",
+          "githubCommit": "ac2d56f9145a4e15e7c0d1fbcd9a466ad0cec9a1",
+          "githubTag": "v1.6.0",
+          "githubUrl": "https://github.com/python/mypy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pre-commit",
+          "ecosystem": "PYPI",
+          "version": "3.5.0",
+          "githubOrg": "pre-commit",
+          "githubRepo": "pre-commit",
+          "githubCommit": "61cc55a59cc63c7405dd3cd7c96b169fdb750333",
+          "githubTag": "v3.5.0",
+          "githubUrl": "https://github.com/pre-commit/pre-commit",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "numpy",
+          "ecosystem": "PYPI",
+          "version": "2.5.3",
+          "githubOrg": "numpy",
+          "githubRepo": "numpy",
+          "githubCommit": "dd88c0c19b54ad9ed3533224221285bf0873249a",
+          "githubTag": "v2.5.3",
+          "githubUrl": "https://github.com/numpy/numpy",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/numpy/_core/fromnumeric.py"
+        },
+        {
+          "packageName": "transformers",
+          "ecosystem": "PYPI",
+          "version": "5.19.0",
+          "githubOrg": "huggingface",
+          "githubRepo": "transformers",
+          "githubCommit": "c4c4605f961877852b89b97478536bb3a26b6fd1",
+          "githubTag": "v5.19.0",
+          "githubUrl": "https://github.com/huggingface/transformers",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/transformers/tokenization_utils_base.py"
+        },
+        {
+          "packageName": "torch",
+          "ecosystem": "PYPI",
+          "version": "2.14.1",
+          "githubOrg": "pytorch",
+          "githubRepo": "pytorch",
+          "githubCommit": "5c4886908584029761b579af026dcfb627c84070",
+          "githubTag": "v2.14.1",
+          "githubUrl": "https://github.com/pytorch/pytorch",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/torch/_C/_VariableFunctions.pyi"
+        },
+        {
+          "packageName": "tqdm",
+          "ecosystem": "PYPI",
+          "version": "4.70.1",
+          "githubOrg": "tqdm",
+          "githubRepo": "tqdm",
+          "githubCommit": "9cf5a12b1f955468a17f0ba3c59092b23e4258ac",
+          "githubTag": "v4.70.1",
+          "githubUrl": "https://github.com/tqdm/tqdm",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/tqdm/asyncio.py"
+        }
       ]
     }
   ],

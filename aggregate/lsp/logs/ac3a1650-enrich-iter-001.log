@@ -1,0 +1,20 @@
+[2026-10-08T11:07:54Z] === ENRICH ITERATION 1 START | repo=NousResearch/tinker-atropos sha=ac3a1650 ===
+[2026-10-08T11:07:54Z] [iter=1] PHASE START: enrich repo=NousResearch/tinker-atropos sha=ac3a1650 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/ac3a1650-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/ac3a1650e33ab5bfeee2df32f511120a259d667f.nq.gz
+[2026-10-08T11:08:09Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-10-08T11:08:11Z] [iter=1] AST store loaded triples=151774 load_secs=1 mem_mb=303 MB
+[2026-10-08T11:08:11Z] [iter=1] Step 2: Finding LSP targets mem_mb=303 MB
+[2026-10-08T11:08:11Z] [iter=1] LSP targets found call_sites=977 imports=87 extends=17 implements=0 secs=0
+[2026-10-08T11:08:11Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=303 MB
+[2026-10-08T11:08:12Z] [iter=1] Position index built positions=9991 nodes_with_types=13047 secs=1 mem_mb=303 MB
+[2026-10-08T11:08:12Z] [iter=1] Step 3: Starting LSP resolution mem_mb=303 MB already_completed_types=[] already_completed_files=0
+[2026-10-08T11:08:12Z] [iter=1] Resolving target type target_type=call_site count=977
+[2026-10-08T11:10:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.3 files_done=1 resolved=197 errors=17 current=serve.py
+[2026-10-08T11:10:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.9 files_done=2 resolved=239 errors=22 current=tinker_atropos/tests/test_serve_integration.py
+[2026-10-08T11:11:09Z] [iter=1] Target type resolved target_type=call_site resolved=539 errors=64 secs=176 mem_mb=303 MB
+[2026-10-08T11:11:09Z] [iter=1] Resolving target type target_type=import_statement count=87
+[2026-10-08T11:11:10Z] [iter=1] Target type resolved target_type=import_statement resolved=59 errors=0 secs=2 mem_mb=303 MB
+[2026-10-08T11:11:10Z] [iter=1] Resolving target type target_type=extends_clause count=17
+[2026-10-08T11:11:12Z] [iter=1] Target type resolved target_type=extends_clause resolved=15 errors=0 secs=1 mem_mb=303 MB
+[2026-10-08T11:11:45Z] [iter=1] Step 5: Writing final enrichment file triples=8581
+[2026-10-08T11:11:45Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/ac3a1650e33ab5bfeee2df32f511120a259d667f.nq.gz size_kb=155
+[2026-10-08T11:11:45Z] [iter=1] PHASE END: enrich elapsed_s=231 elapsed_min=3.9 total_triples=8581
