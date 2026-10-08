@@ -233,7 +233,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/tqdm/asyncio.py"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/ac3a1650e33ab5bfeee2df32f511120a259d667f/chunk-001.nq.gz",
+      "dep": "dep/ac3a1650e33ab5bfeee2df32f511120a259d667f.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
