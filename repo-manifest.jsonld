@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/NousResearch/tinker-atropos/commit/ac3a1650e33ab5bfeee2df32f511120a259d667f",
       "git:hexsha": "ac3a1650e33ab5bfeee2df32f511120a259d667f",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "main"
     }
   ]
